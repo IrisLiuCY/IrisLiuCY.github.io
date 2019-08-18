@@ -73,7 +73,7 @@ username: irisliucy
 repo: irisliucy.github.io
 branch: master
 relative_source: ../
-destination: ../irisliucy.github.io
+destination: ../irisliucy.github.io.built
 production_url:  https://irisliucy.github.io/
 source_url:  https://github.com/irisliucy/irisliucy.github.io
 port: 4444
