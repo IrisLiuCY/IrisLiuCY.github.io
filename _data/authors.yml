@@ -1,0 +1,10 @@
+iris:
+  username: iris
+  name: Iris Liu
+  url_full: http://iris-liu.com
+  url: iris-liu.com
+  bio: A creator, woman in tech and recreational runner. I write about tech, entreprenuership and outdoors adventures.
+  picture: assets/images/iris.jpg
+  facebook: False
+  twitter: theirisliu
+  cover: assets/images/outdoors.png
