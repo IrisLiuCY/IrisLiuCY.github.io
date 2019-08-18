@@ -11,7 +11,7 @@
 
 
 
-    <title>Iris Liu</title>
+    <title>About Me</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,28 +36,31 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="A creator, woman in tech and amateur runner" />
     <link rel="shortcut icon" href="http://localhost:4444/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4444/" />
+    <link rel="canonical" href="http://localhost:4444/about/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Iris Liu" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Iris Liu" />
-    <meta property="og:description" content="A creator, woman in tech and amateur runner" />
-    <meta property="og:url" content="http://localhost:4444/" />
+    <meta property="og:title" content="About Me" />
+    <meta property="og:description" content="Hi there! I'm Iris Liu, content creator and former software engineer, who is now working on researches related to machine learning and neural networks. When I'm not coding, I spend my time in the trails running, organizing tech service trips, listening to stories of empowering women & reading. Raised in" />
+    <meta property="og:url" content="http://localhost:4444/about/" />
     <meta property="og:image" content="http://localhost:4444/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/irisliucy" />
+    <meta property="article:author" content="https://www.facebook.com/irisliucy" />
+    <meta property="article:published_time" content="" />
+    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Iris Liu" />
-    <meta name="twitter:description" content="A creator, woman in tech and amateur runner" />
+    <meta name="twitter:title" content="About Me" />
+    <meta name="twitter:description" content="Hi there! I'm Iris Liu, content creator and former software engineer, who is now working on researches related to machine learning and neural networks. When I'm not coding, I spend my time in the trails running, organizing tech service trips, listening to stories of empowering women & reading. Raised in" />
     <meta name="twitter:url" content="http://localhost:4444/" />
     <meta name="twitter:image" content="http://localhost:4444/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Iris Liu" />
     <meta name="twitter:site" content="@theirisliu" />
     <meta name="twitter:creator" content="@theirisliu" />
-    <meta property="og:image:width" content="2000" />
-    <meta property="og:image:height" content="666" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
 
     <script type="application/ld+json">
 {
@@ -68,7 +71,7 @@
         "name": "Iris Liu",
         "logo": "http://localhost:4444/assets/images/blog-icon.png"
     },
-    "url": "http://localhost:4444/",
+    "url": "http://localhost:4444/about/",
     "image": {
         "@type": "ImageObject",
         "url": "http://localhost:4444/assets/images/blog-cover.jpg",
@@ -77,9 +80,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4444/"
+        "@id": "http://localhost:4444/about/"
     },
-    "description": "A creator, woman in tech and amateur runner"
+    "description": "Hi there! I'm Iris Liu, content creator and former software engineer, who is now working on researches related to machine learning and neural networks. When I'm not coding, I spend my time in the trails running, organizing tech service trips, listening to stories of empowering women & reading. Raised in"
 }
     </script>
 
@@ -92,11 +95,11 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Iris Liu" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="About Me" href="/feed.xml" />
 
 
 </head>
-<body class="home-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -105,18 +108,14 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/images/blog-cover.jpg) ">
+<header class="site-header outer">
     <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    <img class="site-logo" src="/assets/images/blog-icon.png" alt="Iris Liu" style="max-height:110px;"/>
-                
-            </h1>
-            <h2 class="site-description">A creator, woman in tech and amateur runner</h2>
-        </div>
         <nav class="site-nav">
     <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4444/"><img src="/assets/images/blog-icon.png" alt="Iris Liu" /></a>
+            
         
         
             <ul class="nav" role="menu">
@@ -149,70 +148,56 @@ into the {body} of the default.hbs template -->
     </div>
 </header>
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+        <article class="post-full post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">About Me</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <p>Hi there!</p>
 
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/why-I-transit-from-SE-to-research.html">
-                <div class="post-card-image" style="background-image: url(/assets/images/decision.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/why-I-transit-from-SE-to-research.html">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Tech</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Research</span>
-                            
-                        
-                    
+<p>I’m Iris Liu, content creator and former software engineer, who is now working on researches related to machine learning and neural networks.</p>
 
-                    <h2 class="post-card-title">Why I went from a software engineer to a research assistant? Industry vs academia?</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>I’ve recently transited from working as a software engineer in a technology startups to a research assistant (RA) in electrical engineering. People are often interested and even surprised in my transition from working</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/iris.jpg" alt="Iris Liu" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/iris/">Iris Liu</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      4 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
+<p>When I’m not coding, I spend my time in the trails running, organizing tech service trips, listening to stories of empowering women &amp; reading.</p>
 
+<p>Raised in Hong Kong, I grew my passion for science and technology at a young age and studied computer science in my undergraduate. Inspired by stories of successful women leaders e.g. Sheryl Sandberg, Melinda Gates, I aspire to empower young people to learn to code and become a leader in tech. I started volunteering in the Philippines in October 2018, when I was looking for a purposeful experience other than exotic beaches and diving trips. I began with helping a local charity fixing their Wifi connection and  teaching the junior high students how to create and sync their reports with Google Docs. Now it’s my third time coming back, hosting local meetups with local students and engineers and together we serve and teach the young about coding and STEM in the community centre. In the beginning of 2020, I will be moving to Los Angeles to study Master in Computer Science in USC.</p>
 
-        </div>
+<p>If you want to connect, share your stories or simply have a say, you are more than welcomed to comment or ping me via email.</p>
+
+<p>Also, I’m up for coffee and vegetarian delights ☕🌱- message me when you are around Hong Kong 🇭🇰.</p>
+
+<ul>
+  <li><a href="mailto:irisliu.cy@gmail.com">Email</a></li>
+  <li><a href="https://www.instagram.com/irisliucy/">Instagram</a></li>
+  <li><a href="https://www.linkedin.com/in/irisliucy/">LinkedIn</a></li>
+</ul>
+
+            </section>
+
+        </article>
 
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -281,7 +266,7 @@ into the {body} of the default.hbs template -->
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -304,6 +289,14 @@ into the {body} of the default.hbs template -->
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
