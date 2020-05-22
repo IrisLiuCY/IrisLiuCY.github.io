@@ -29,7 +29,7 @@ tmp
 vendor
 Gemfile.lock
 node_modules
-*CNAME
+CNAME
 
 # ignore package lock
 *package-lock.json

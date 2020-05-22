@@ -8,13 +8,28 @@
     
       
       <item>
+        <title>Goodbye 2019</title>
+        
+          <description>&lt;p&gt;I was leaving for Los Angelos on 24th December 2019. At the time, I created this bucket list to create memories with families and friends before leaving Home Kong 🇭🇰! Goodbye for now.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jan 2020 02:00:00 -0800</pubDate>
+        <link>
+        http://localhost:4444/bucket-list-2019</link>
+        <guid isPermaLink="true">http://localhost:4444/bucket-list-2019</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>My first 50Km - A note to myself</title>
         
           <description>&lt;p&gt;Dear Iris,&lt;/p&gt;
 
 </description>
         
-        <pubDate>Sat, 26 Oct 2019 18:00:00 +0800</pubDate>
+        <pubDate>Sat, 26 Oct 2019 03:00:00 -0700</pubDate>
         <link>
         http://localhost:4444/my-first-50Km</link>
         <guid isPermaLink="true">http://localhost:4444/my-first-50Km</guid>
@@ -29,7 +44,7 @@
 
 </description>
         
-        <pubDate>Sat, 26 Oct 2019 18:00:00 +0800</pubDate>
+        <pubDate>Sat, 26 Oct 2019 03:00:00 -0700</pubDate>
         <link>
         http://localhost:4444/hk50-race-report</link>
         <guid isPermaLink="true">http://localhost:4444/hk50-race-report</guid>
@@ -45,7 +60,7 @@ went home thinking “I’m fixed”. This is a journal of how and why it came a
 
 </description>
         
-        <pubDate>Tue, 01 Oct 2019 18:00:00 +0800</pubDate>
+        <pubDate>Tue, 01 Oct 2019 03:00:00 -0700</pubDate>
         <link>
         http://localhost:4444/vipassana-experience</link>
         <guid isPermaLink="true">http://localhost:4444/vipassana-experience</guid>
@@ -60,7 +75,7 @@ went home thinking “I’m fixed”. This is a journal of how and why it came a
 
 </description>
         
-        <pubDate>Mon, 05 Aug 2019 18:00:00 +0800</pubDate>
+        <pubDate>Mon, 05 Aug 2019 03:00:00 -0700</pubDate>
         <link>
         http://localhost:4444/why-I-transit-from-SE-to-research</link>
         <guid isPermaLink="true">http://localhost:4444/why-I-transit-from-SE-to-research</guid>
