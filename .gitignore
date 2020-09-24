@@ -1,35 +1,12 @@
-# OS X
+_site
 .DS_Store
-
-# Jekyll build
-/_site/
+.jekyll
 .jekyll-metadata
-#Gemfile.lock
-
-# webstorm
-.idea/
-
-# others
-*.swp
-
-# site build
-*.gem
-*.rbc
+.jeyll_cache
 .bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
-vendor
+.sass-cache
+Gemfile
 Gemfile.lock
 node_modules
-CNAME
-
-# ignore package lock
-*package-lock.json
+package.json
+favicon.ico

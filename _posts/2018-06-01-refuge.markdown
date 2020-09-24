@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "MICCAI - Retinal Fundus Glaucoma  Challenge"
+date:   2018-06-01 22:21:59 +00:00
+media: images
+image-group: refuge
+image1: images/refuge.gif
+image2: images/refuge_eye.jpg
+categories: 'workshop'
+---
+
+By inputing the pre-processed fundus images to DenseNet-161 for segmentation to calculate the cup-to-disc ration for diabetic retinopathy and glaucoma screening.

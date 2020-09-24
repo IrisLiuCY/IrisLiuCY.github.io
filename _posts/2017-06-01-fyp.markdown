@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Short Text Classification with Deep Neural Networks: An Exerimental Analysis"
+date:   2017-06-01 22:21:59 +00:00
+media: images
+image-group: fyp
+image1: images/fyp_20news_ML.png
+image2: images/fyp_20news_structural.png
+categories: CityU
+course: 'Final Year Project'
+paper: http://dspace.cityu.edu.hk/handle/2031/93
+slides: /pdfs/slides_fyp.pdf
+code: https://github.com/irisliucy/Short-text-Classification
+---
+
+In the context of short texts, LSTMs is applied to perform text classification. This method demonstrates that using temporal LSTMs can achieve remarkable performance in capturing syntactic and semantic meaning of short-texts without expensive feature engineering and understanding text structures.
