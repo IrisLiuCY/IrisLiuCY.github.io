@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4444/tag/meditation/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4444/" rel="alternate" type="text/html" />
-  <updated>2020-09-24T00:12:12-07:00</updated>
-  <id>http://localhost:4444/tag/meditation/feed.xml</id>
+  <link href="http://localhost:4444/blog/tag/meditation/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4444/blog/" rel="alternate" type="text/html" />
+  <updated>2020-09-24T00:45:59-07:00</updated>
+  <id>http://localhost:4444/blog/tag/meditation/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">6 months updates on my 10-day Vipassana meditation experience</title>
-      <link href="http://localhost:4444/vipassana-experience" rel="alternate" type="text/html" title="6 months updates on my 10-day Vipassana meditation experience" />
+      <link href="http://localhost:4444/blog/vipassana-experience" rel="alternate" type="text/html" title="6 months updates on my 10-day Vipassana meditation experience" />
       <published>2019-10-01T03:00:00-07:00</published>
       <updated>2019-10-01T03:00:00-07:00</updated>
-      <id>http://localhost:4444/vipassana-experience</id>
-      <content type="html" xml:base="http://localhost:4444/vipassana-experience">&lt;p&gt;I went to the Vipassana Meditation Center in Lantau, Hong Kong for a new student’s ten day course about 6 months ago in April 2019. I completed it and I
+      <id>http://localhost:4444/blog/vipassana-experience</id>
+      <content type="html" xml:base="http://localhost:4444/blog/vipassana-experience">&lt;p&gt;I went to the Vipassana Meditation Center in Lantau, Hong Kong for a new student’s ten day course about 6 months ago in April 2019. I completed it and I
 went home thinking “I’m fixed”. This is a journal of how and why it came about as well as my experiences during and after the course.&lt;/p&gt;
 
 &lt;h3 id=&quot;part-1-the-why&quot;&gt;Part 1. The Why&lt;/h3&gt;

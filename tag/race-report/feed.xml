@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4444/tag/race-report/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4444/" rel="alternate" type="text/html" />
-  <updated>2020-09-24T00:12:12-07:00</updated>
-  <id>http://localhost:4444/tag/race-report/feed.xml</id>
+  <link href="http://localhost:4444/blog/tag/race-report/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4444/blog/" rel="alternate" type="text/html" />
+  <updated>2020-09-24T00:45:59-07:00</updated>
+  <id>http://localhost:4444/blog/tag/race-report/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">HK50 2019 Race Report</title>
-      <link href="http://localhost:4444/hk50-race-report" rel="alternate" type="text/html" title="HK50 2019 Race Report" />
+      <link href="http://localhost:4444/blog/hk50-race-report" rel="alternate" type="text/html" title="HK50 2019 Race Report" />
       <published>2019-10-26T03:00:00-07:00</published>
       <updated>2019-10-26T03:00:00-07:00</updated>
-      <id>http://localhost:4444/hk50-race-report</id>
-      <content type="html" xml:base="http://localhost:4444/hk50-race-report">&lt;p&gt;I checked off a 50Km ultra run in my bucket list before the end of 2019. The run was a dream, a sweet dream for me. And now I’m proud to call myself an ultra runner.&lt;/p&gt;
+      <id>http://localhost:4444/blog/hk50-race-report</id>
+      <content type="html" xml:base="http://localhost:4444/blog/hk50-race-report">&lt;p&gt;I checked off a 50Km ultra run in my bucket list before the end of 2019. The run was a dream, a sweet dream for me. And now I’m proud to call myself an ultra runner.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/HK50/HK50_start_1.jpg&quot; alt=&quot;Start&quot; /&gt;
 &lt;em&gt;The starting line of HK50 at The Peak&lt;/em&gt;&lt;/p&gt;

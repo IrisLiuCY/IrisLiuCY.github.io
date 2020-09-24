@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4444/tag/running/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4444/" rel="alternate" type="text/html" />
-  <updated>2020-09-24T00:12:12-07:00</updated>
-  <id>http://localhost:4444/tag/running/feed.xml</id>
+  <link href="http://localhost:4444/blog/tag/running/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4444/blog/" rel="alternate" type="text/html" />
+  <updated>2020-09-24T00:45:59-07:00</updated>
+  <id>http://localhost:4444/blog/tag/running/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">My first 50Km - A note to myself</title>
-      <link href="http://localhost:4444/my-first-50Km" rel="alternate" type="text/html" title="My first 50Km - A note to myself" />
+      <link href="http://localhost:4444/blog/my-first-50Km" rel="alternate" type="text/html" title="My first 50Km - A note to myself" />
       <published>2019-10-26T03:00:00-07:00</published>
       <updated>2019-10-26T03:00:00-07:00</updated>
-      <id>http://localhost:4444/my-first-50Km</id>
-      <content type="html" xml:base="http://localhost:4444/my-first-50Km">&lt;p&gt;Dear Iris,&lt;/p&gt;
+      <id>http://localhost:4444/blog/my-first-50Km</id>
+      <content type="html" xml:base="http://localhost:4444/blog/my-first-50Km">&lt;p&gt;Dear Iris,&lt;/p&gt;
 
 &lt;p&gt;You used to think it’s impossible. You signed up for a full marathon because you wanted to travel to Osaka. You’ve never ran more than 15K at that point. And you did it. You thought that was it, that was the longest run you’ll have ever done and decided to hang up your shoes. Then you met a brunch of amazing friends who run with you. They are so inspiring and genuine that they made you fell in love with running again. This time you run on the trails, you’ve never felt so free and so connected when you run.&lt;/p&gt;
 
@@ -83,11 +83,11 @@
   
     <entry>
       <title type="html">HK50 2019 Race Report</title>
-      <link href="http://localhost:4444/hk50-race-report" rel="alternate" type="text/html" title="HK50 2019 Race Report" />
+      <link href="http://localhost:4444/blog/hk50-race-report" rel="alternate" type="text/html" title="HK50 2019 Race Report" />
       <published>2019-10-26T03:00:00-07:00</published>
       <updated>2019-10-26T03:00:00-07:00</updated>
-      <id>http://localhost:4444/hk50-race-report</id>
-      <content type="html" xml:base="http://localhost:4444/hk50-race-report">&lt;p&gt;I checked off a 50Km ultra run in my bucket list before the end of 2019. The run was a dream, a sweet dream for me. And now I’m proud to call myself an ultra runner.&lt;/p&gt;
+      <id>http://localhost:4444/blog/hk50-race-report</id>
+      <content type="html" xml:base="http://localhost:4444/blog/hk50-race-report">&lt;p&gt;I checked off a 50Km ultra run in my bucket list before the end of 2019. The run was a dream, a sweet dream for me. And now I’m proud to call myself an ultra runner.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/HK50/HK50_start_1.jpg&quot; alt=&quot;Start&quot; /&gt;
 &lt;em&gt;The starting line of HK50 at The Peak&lt;/em&gt;&lt;/p&gt;

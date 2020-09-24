@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4444/tag/research/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4444/" rel="alternate" type="text/html" />
-  <updated>2020-09-24T00:12:12-07:00</updated>
-  <id>http://localhost:4444/tag/research/feed.xml</id>
+  <link href="http://localhost:4444/blog/tag/research/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4444/blog/" rel="alternate" type="text/html" />
+  <updated>2020-09-24T00:45:59-07:00</updated>
+  <id>http://localhost:4444/blog/tag/research/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Why I went from a software engineer to a research assistant? Industry vs academia?</title>
-      <link href="http://localhost:4444/why-I-transit-from-SE-to-research" rel="alternate" type="text/html" title="Why I went from a software engineer to a research assistant? Industry vs academia?" />
+      <link href="http://localhost:4444/blog/why-I-transit-from-SE-to-research" rel="alternate" type="text/html" title="Why I went from a software engineer to a research assistant? Industry vs academia?" />
       <published>2019-08-05T03:00:00-07:00</published>
       <updated>2019-08-05T03:00:00-07:00</updated>
-      <id>http://localhost:4444/why-I-transit-from-SE-to-research</id>
-      <content type="html" xml:base="http://localhost:4444/why-I-transit-from-SE-to-research">&lt;p&gt;I’ve recently transited from working as a software engineer in a technology startups to a research assistant (RA) in electrical engineering. People are often interested and even surprised in my transition from working in the tech industry to academia.&lt;/p&gt;
+      <id>http://localhost:4444/blog/why-I-transit-from-SE-to-research</id>
+      <content type="html" xml:base="http://localhost:4444/blog/why-I-transit-from-SE-to-research">&lt;p&gt;I’ve recently transited from working as a software engineer in a technology startups to a research assistant (RA) in electrical engineering. People are often interested and even surprised in my transition from working in the tech industry to academia.&lt;/p&gt;
 
 &lt;p&gt;How are you going to adjust between the research work and latest technology in the industry? How do you find the pay between a software engineer and a research assistant?&lt;/p&gt;
 
