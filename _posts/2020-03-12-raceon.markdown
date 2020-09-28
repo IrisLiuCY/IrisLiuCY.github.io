@@ -7,6 +7,7 @@ image-group: raceon
 image1: images/raceon.gif
 image2: images/raceon_still.png
 categories: 'competition'
+code: https://github.com/irisliucy/race-on
 ---
 
 With Guanyang Luo, Shubham Nagarkar and Posha Dave, we assembled a car from scratch and programmed the control algorithm of a self-driving car to complete a lap in 9.6 seconds.
