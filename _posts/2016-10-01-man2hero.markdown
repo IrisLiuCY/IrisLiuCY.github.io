@@ -12,4 +12,4 @@ course: 'CS4386 : Game AI Design'
 code: https://github.com/irisliucy/Man2Hero
 ---
 
-'Man 2 Hero' is a single-player action-puzzle PC game with game AI implemented at each level. The highlight of the game is on the AI engine design including the employment of rule-based fuzzy logic and finite state machine logic (FSM).
+'Man 2 Hero' is a single-player action-puzzle PC game with game AI implemented at each level. The highlight of the game is on the AI engine design which includes rule-based fuzzy logic and finite state machine logic (FSM).
