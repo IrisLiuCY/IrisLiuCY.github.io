@@ -1,14 +1,16 @@
 ---
 layout: post
 title:  "Short Text Classification with Deep Neural Networks: An Exerimental Analysis"
+authors: Iris C. Liu
+venue: CityU Best Student Paper
 date:   2017-06-01 22:21:59 +00:00
 media: images
 image-group: fyp
 image1: images/fyp_20news_ML.png
 image2: images/fyp_20news_structural.png
-categories: CityU
-course: 'Final Year Project'
-paper: http://dspace.cityu.edu.hk/handle/2031/93
+# categories: 'Final Year Thesis'
+categories: 'research'
+arxiv: http://dspace.cityu.edu.hk/handle/2031/93
 slides: /pdfs/slides_fyp.pdf
 code: https://github.com/irisliucy/Short-text-Classification
 ---

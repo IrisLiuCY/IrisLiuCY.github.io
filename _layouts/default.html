@@ -33,7 +33,7 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Iris (Chui Yi) Liu
+                Chui Yi (Iris) Liu
               </h1>
               <p>
                 I am a Master's student in Computer Science (AI focus) from <a href="https://www.usc.edu/">University of Southern California</a>, where I am a research assistant at <a href="https://robotics.usc.edu/resl/">Robotics Embedded Systems Laboratory</a>, advised by <a href="http://robotics.usc.edu/~gaurav/">Gaurav Sukhatme</a>.
@@ -45,7 +45,7 @@
                 I am interested in the indisciplinary areas of artificial intelligence and machine learning. In partcular, I'm interested in computer vision, deep learning, and reinforcement learning.
               </p>
               <p style="text-align:center">
-                <a href="pdfs/resume_iris_liu.pdf">Resume</a> &nbsp;/&nbsp;
+                <a href="pdfs/resume_iris_liu.pdf">CV</a> &nbsp;/&nbsp;
                 <a href="mailto:chuiyili@usc.edu">Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/irisliucy">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/irisliucy/"> LinkedIn </a> &nbsp;/&nbsp;
@@ -63,20 +63,34 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
-              <p>
-                I'm interested in computer vision, machine learning, reinforcement learning, and robotics.
-              </p>
             </td>
           </tr>
         </table> -->
+        
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+          <tr onmouseout="{{post.image-group}}_stop()" onmouseover="{{post.image-group}}_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              {% if post.media == 'images' %}
+              <div class="one">
+                <div class="two" id="{{post.image-group}}1"><img src="{{post.image1}}" style="width: 100%"></div>
+                <img id="{{post.image-group}}2" src="{{post.image2}}" style="width: 100%">
+              </div>
+              <script type="text/javascript">
+                function {{post.image-group}}_start() {
+                  document.getElementById("{{post.image-group}}1").style.opacity = "1";
+                  document.getElementById("{{post.image-group}}2").style.opacity = "0";
+                }
+
+                function {{post.image-group}}_stop() {
+                  document.getElementById("{{post.image-group}}1").style.opacity = "0";
+                  document.getElementById("{{post.image-group}}2").style.opacity = "1";
+                }
+                {{post.image-group}}_stop()
+              </script>
+              {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -101,6 +115,9 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -109,6 +126,7 @@
           {% endfor %}
           {% endfor %}
         </table> -->
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -118,10 +136,63 @@
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           {% for post in site.posts %}
           {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          <tr onmouseout="{{post.image-group}}_stop()" onmouseover="{{post.image-group}}_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              {% if post.media == 'images' %}
+              <div class="one">
+                <div class="two" id="{{post.image-group}}1"><img src="{{post.image1}}" style="width: 100%"></div>
+                <img id="{{post.image-group}}2" src="{{post.image2}}" style="width: 100%">
+              </div>
+              <script type="text/javascript">
+                function {{post.image-group}}_start() {
+                  document.getElementById("{{post.image-group}}1").style.opacity = "1";
+                  document.getElementById("{{post.image-group}}2").style.opacity = "0";
+                }
+
+                function {{post.image-group}}_stop() {
+                  document.getElementById("{{post.image-group}}1").style.opacity = "0";
+                  document.getElementById("{{post.image-group}}2").style.opacity = "1";
+                }
+                {{post.image-group}}_stop()
+              </script>
+              {% endif %}
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">paper</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> 
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> 
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
           {% if cat != 'research' %}
           <tr onmouseout="{{post.image-group}}_stop()" onmouseover="{{post.image-group}}_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -152,9 +223,6 @@
               {{ post.date | date: "%Y-%m-%d" }}
 
               <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> 
-              {% endif %}
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
               {% endif %}
@@ -179,6 +247,9 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> 
+              {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> 
               {% endif %}
@@ -189,7 +260,8 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-        
+        </table>
+      
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
